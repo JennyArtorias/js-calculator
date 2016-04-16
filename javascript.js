@@ -29,6 +29,14 @@ function backspace(){
     box.value = newNumber;
 }
 
+function power(y){
+    
+    x=box.value;
+    x=math.pow(x,y);
+    box.value=x;
+    
+    
+}
     
     
     
