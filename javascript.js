@@ -21,6 +21,14 @@ function answer(){
     box.value=x;
 }
     
+function backspace(){
+    
+    var number= box.value;
+    var len= number.length - 1;
+    var newNumber = number.substring(0,len);
+    box.value = newNumber;
+}
+
     
     
     
