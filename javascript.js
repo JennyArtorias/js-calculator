@@ -32,7 +32,7 @@ function backspace(){
 function power(y){
     
     x=box.value;
-    x=math.pow(x,y);
+    x=Math.pow(x,y);
     box.value=x;
     
     
