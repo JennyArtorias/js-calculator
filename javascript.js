@@ -6,7 +6,7 @@ var box = documet.getElementById("display");
 
 function addtoscreen(x){
     
-    box.value=x;
+    box.value= box.value + x;
     
     
     
