@@ -16,7 +16,7 @@ function addtoscreen(x){
 
 function answer(){
     
-    box.value=x;
+    x=box.value;
     x=eval(x);
     box.value=x;
 }
