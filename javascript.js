@@ -8,6 +8,10 @@ function addtoscreen(x){
     
     box.value= box.value + x;
     
+    if(x=="c"){
+        box.value="";
+    }
+    
     
     
     
