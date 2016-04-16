@@ -1,4 +1,4 @@
-var box = documet.getElementById("display");
+var box = document.getElementById("display");
 //Store no's
 
 
@@ -12,12 +12,19 @@ function addtoscreen(x){
         box.value="";
     }
     
-    
-    
-    
-    
-    
 }
+
+function answer(){
+    
+    box.value=x;
+    x=eval(x);
+    box.value=x;
+}
+    
+    
+    
+    
+    
 
 
 
