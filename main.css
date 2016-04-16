@@ -3,4 +3,21 @@
     width:250px;
     height:350px;
     border: 1px solid black;
+    text-align: center;
+    background: lightblue;
+    margin: 150px auto;
+    box-shadow: 0px 0px 30px gray;
+}
+
+
+#display{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width:220px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 30px red;
+    
+    
+    
 }
