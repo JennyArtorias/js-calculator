@@ -18,7 +18,20 @@
     border: 1px solid red;
     box-shadow: 0px 0px 30px red;
     text-align: right;
+    font: 20px bold;
+    color: darkblue;
     
     
     
 }
+
+#keys
+{
+    width: 41px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 20px yellow;
+    cursor: crosshair;
+}
+
